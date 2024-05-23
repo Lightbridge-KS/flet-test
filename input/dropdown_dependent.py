@@ -28,7 +28,8 @@ def main(page: ft.Page):
     
     dd_2 = ft.Dropdown(
         width=100,
-        options=[ft.dropdown.Option(x) for x in lookup_2["Red"]],
+        ## Uncomment for default value
+        # options=[ft.dropdown.Option(x) for x in lookup_2["Red"]],
         on_change=dropdown_changed_2
     )
     
