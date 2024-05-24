@@ -13,6 +13,7 @@ def main(page: ft.Page):
         on_dismiss=date_picker_dismissed,
         first_date=datetime.datetime(2023, 10, 1),
         last_date=datetime.datetime(2024, 10, 1),
+        date_picker_entry_mode = ft.DatePickerEntryMode.CALENDAR
     )
 
     page.overlay.append(date_picker)

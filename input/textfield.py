@@ -4,7 +4,7 @@ import flet as ft
 
 def main(page: ft.Page):
     def button_clicked(e):
-        t.value = f"Textboxes values are:  '{tb1.value}', '{tb2.value}', '{tb3.value}', '{tb4.value}', '{tb5.value}'."
+        t.value = f"Textboxes values are:  '{tb1.value}', '{tb2.value}', '{tb3.value}', '{tb4.value}', '{tb5.value}'. type of '{tb1.value}' =  {type(tb1.value)}"
         page.update()
 
     t = ft.Text()
