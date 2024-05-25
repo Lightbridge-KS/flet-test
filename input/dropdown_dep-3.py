@@ -1,11 +1,11 @@
 import flet as ft
 
 
-lookup_1 = ["Op1", "Op2"]
+lookup_1 = ["Body", "Neuro"]
 
 lookup_2 = {
-    "Op1": ["Red", "Green"],
-    "Op2": ["Blue"]
+    "Body": ["Red", "Green"],
+    "Neuro": ["Blue"]
 }
 
 lookup_3 = {
