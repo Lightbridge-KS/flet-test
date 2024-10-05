@@ -21,7 +21,7 @@ def main(page: ft.Page):
         # new_text = ft.Text("", size=24)
         new_container = ft.Container(
             content=ft.Text("", size=24),  # Initially empty
-            bgcolor=ft.colors.AMBER_300
+            bgcolor=ft.colors.BLACK87
         )
         text_column.controls.append(new_container)
 
